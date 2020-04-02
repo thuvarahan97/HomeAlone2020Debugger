@@ -116,6 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void passwordSubmit() async {
     // once you run the app, username and password will come to you. Not by code but with your eyes and memory.
     // try to match and you'll see :D
+    // hint: before login, we must register.
     try {
       Response response = await Dio().post("some_url",data: {});
     } catch (e) {
@@ -129,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void dummyFunction() {
     this.might = "help to decrypt";
-    //(Only 2 requests per 5 minutes are allowed)
+    //(Minimum 2 and maximum 6 requests per 5 minutes are allowed. Depending on the traffic)
     Dio().post("https://debugger.homealone2020.live/decrypt",data: {
       "value":"",
       "code":""
