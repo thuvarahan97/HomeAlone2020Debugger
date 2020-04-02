@@ -1,6 +1,6 @@
 # debugger
 
-You can play this until 4th april, 11.59 PM. Time will be recorded. 
+You can play this until 4th april, 11.59 PM. Time will be recorded for our use. 
 
 This is a flutter project.
 
@@ -15,7 +15,7 @@ Tip from the creator: Use Postman.
 
 (Requests per 5 minutes is limited to 2. You have to wait 5 minutes if you send server requests twice)
 
-Make sure to pull if there are new changes. That might save you trouble.
+Make sure to pull if there are new changes. That might save you from trouble.
 
 Good Luck 😁
 
