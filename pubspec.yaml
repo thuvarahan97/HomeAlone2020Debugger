@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.2
   dio: ^3.0.9
-  gaslabu: 2kg
+  # gaslabu: 2kg
 
 dev_dependencies:
   flutter_test:
@@ -25,4 +25,3 @@ flutter:
 
   assets:
     - assets/
-
